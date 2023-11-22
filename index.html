@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Mi primera Web</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+   
+    <style>
+        
+
+        ul{
+            font-family: Agbalumo;
+        }
+      </style>
+    <script src="https://kit.fontawesome.com/0f717e9e3d.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/c9b87a4bee.js" crossorigin="anonymous"></script>
+</head>
+
+</script>
+<body>
+    <div class="container">
+        <header id="encabezado">
+            <a href="index.html">
+                <i class="fa-solid fa-heart-pulse fa-beat-fade"></i>
+            </a>
+            <nav>
+                <input type="checkbox" id="check" />
+                    <label for="check" class="checkbtn">
+                        <i class="fa-solid fa-bars"></i>
+                    </label>
+                <ul class="menu">
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="#">Acerca de mi</a></li>
+                    <li><a href="#">Trabajos</a></li>
+                    <li><a href="#">Servicios</a></li>
+                    <li><a href="#">Contacto</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main id="seccion-principal">
+            <section class="section-1">  
+                <div class="acerca-de">
+                    <h2 id="tituloAcercade">Acerca de mí</h2>
+                    <button onclick="cambiartitulo()">Cambiar titulo</button>
+                    <p class="parrafo1">¡Bienvenido a mi página!, Aquí aprenderás más sobre mí.</p>
+                    <p class="parrafo2">Me llamo Juan Pablo, naci en Bogotá, Colombia y vivo en Funza, Cundinamarca. Me gusta el popcorn o maiz pira y jugar volleiball. Me encanta retomar el reto de la programación y poder enseñarlo.</p>
+                </div>
+                <div class="acerca-imagen">
+                    <figure>
+                        <img src="img/hero-img.jpg" alt="Imagen Personal" style="width:100%">
+                        <figcaption>Fig.1 - Mi Imagen Personal.</figcaption>
+                      </figure>
+                </div>
+            </section>
+
+            <section class="section-2">  
+                <figure>
+                    <img src="img/paisaje.png" alt="imagen de carrusel" style="width:100%">
+                </figure>
+            </section>
+
+            <section class="section-3">
+                <div class="titulo-seccion">Hobbies</div>
+                <div class="cajas-secciones">
+                    <div class="caja-seccion">
+                        <h3>Voleiball</h3>
+                        <figure>
+                            <img class="imagen-seccion" src="https://pikwizard.com/pw/small/99024b4ad92e992b18f2d4e6ae1816c4.jpg" alt="imagen de carrusel" style="width:100%">
+                            <p>Texto del resto del cuadro, Texto del resto del cuadro, Texto del resto del cuadro, Texto del resto del cuadro, </p>
+                        </figure>
+                    </div>
+                    <div class="caja-seccion">
+                        <h3>Enseñar</h3>
+                        <figure>
+                            <img class="imagen-seccion" src="https://previews.123rf.com/images/jackf/jackf1906/jackf190601249/124789643-young-man-teacher-with-book-is-giving-interesting-lecture-for-students-during-lesson-in-the.jpg" alt="imagen de carrusel" style="width:100%">
+                            <p>Texto del resto del cuadro, Texto del resto del cuadro, Texto del resto del cuadro, Texto del resto del cuadro, </p>
+                        </figure>
+                    </div>
+                    <div class="caja-seccion">
+                        <h3>Internet</h3>
+                        <figure>
+                            <img class="imagen-seccion" src="https://png.pngtree.com/thumb_back/fh260/back_pic/03/84/84/5657cba13a96d69.jpg" alt="imagen de carrusel" style="width:100%">
+                            <p>Texto del resto del cuadro, Texto del resto del cuadro, Texto del resto del cuadro, Texto del resto del cuadro, </p>
+                        </figure>
+                    </div>
+
+                </div>
+            </section>
+        </main>
+        
+        <footer class="form-header">
+            <h1>Contacto</h1>
+            <p><em>¡Esperamos tu consulta!</em></p>
+    
+            <form action="" method="get" class="formulario" id="form">
+                <div class="form-row">
+                    <label for="nombre">Nombre</label>
+                    <input id="nombre" name="nombre" type="text" />
+                </div>
+                <div class="form-row">
+                    <label for="email">Email</label>
+                    <input
+                      id="email"
+                      name="email"
+                      type="email"
+                      placeholder="pepe@gmail.com"
+                    />
+                </div>
+                <div class="form-row">
+                    <label for="mensaje">Mensaje</label>
+                    <textarea id="mensaje" name="mensaje"></textarea>
+                </div>
+                <div class="form-row">
+                    <button>Enviar</button>
+                </div>
+                <p class="alertas" id="alertas"></p>
+            </form>
+        </footer>
+        <footer>
+            <div class="imagen-flotante">
+                <a href="index.html">
+                    <i class="fa-solid fa-heart-pulse fa-beat-fade"></i>
+                </a>
+            </div>
+            
+            <nav>
+                <div class="hijo"><h3>Redes Sociales</h3></div>
+                <ul>
+                    <li><a href="#">Contacto</li>
+                    <li><a href="#">Instagram</li>
+                    <li><a href="#">TikTok</li>
+                    <li><a href="#">Whatsapp</li>
+                </ul>
+            </nav>
+        </footer>
+        
+    </div>
+</body>
+</html>
