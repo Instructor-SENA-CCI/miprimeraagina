@@ -7,7 +7,9 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-
+.greetings{
+    background-color: chartreuse;
+}
 
 .section-1{
     background-color: #feb236;
